@@ -1,5 +1,3 @@
-WITH_GMS := true
-
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 
 PRODUCT_PACKAGES += \
