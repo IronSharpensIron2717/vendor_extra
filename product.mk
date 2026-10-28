@@ -1,4 +1,4 @@
-$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
 
 PRODUCT_PACKAGES += \
     RemoveStdPackages
